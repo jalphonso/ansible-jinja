@@ -1,0 +1,7 @@
+#jinja2: lstrip_blocks: True, trim_blocks: True
+{% for vlan in vlans %}
+data vlan is {{ vlan.data }}
+voice vlan is {{ vlan.voice }}
+{% endfor %}
+
+value of a.b.c is {{ a.b.c }}

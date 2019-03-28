@@ -1,0 +1,11 @@
+---
+
+vlans:
+  - data: 100
+    voice: 200
+
+  - data: 101
+    voice: 201
+a:
+  b:
+    c: 1

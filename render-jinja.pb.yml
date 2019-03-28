@@ -1,0 +1,10 @@
+---
+
+- hosts: device1
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: Build config from template
+    template:
+      src: "template.j2"
+      dest: "output.conf"
